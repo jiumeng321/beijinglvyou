@@ -1,0 +1,36 @@
+.banner {
+	height: 191px;
+	background: url('../images/banner.png') center;
+}
+.banner .logo {
+	padding-top: 4px;
+}
+.banner .logo h1 {
+	width: 139px;
+	height: 42px;
+	background: url('../images/h1.png') no-repeat;
+	text-indent: -9999px;
+	margin-left: 5px;
+}
+.menus {
+	height: 38px;
+	background-color: #4CACF8;
+}
+.menus .menu a {
+	color: #FFF;
+	line-height: 38px;
+	margin-left: 2px;
+}
+.menus .menu .a-lan {
+	color: #025AAF;
+	width: 127px;
+	height: 31px;
+	border-radius: 5px 5px 0 0;
+	text-align: center;
+	line-height: 31px;
+	margin-top: 7px;
+	margin-right: 1px;
+	font-weight: bold;
+	font-size: 14px;
+	background: url('../images/a-lan.png') repeat-x;
+}

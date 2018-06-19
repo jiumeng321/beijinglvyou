@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>团队预约</title>
+	<link rel="stylesheet" href="css/moren.css">
+	<link rel="stylesheet" href="css/top_style.css">
+	<link rel="stylesheet" href="css/footer_style.css">
+	<link rel="stylesheet" href="css/bodybg_style.css">
+	<link rel="stylesheet" href="css/index_style.css">
+	<link rel="stylesheet" href="css/tuandui.css">
+</head>
+<body>
+	<div class="banner">
+		<div class="logo gwidth">
+			<h1>北京旅游</h1>
+		</div>
+	</div>
+	<div class="menus">
+		<div class="menu gwidth">
+			<a href="index.html" class="fl">参观预约的开放单位列表></a>
+			<a href="tuandui.html" class="fl">参观预约</a>
+		</div>
+	</div>
+	<div class="contents">
+		<div class="contentss gwidth1">
+			<div class="content gwidth">
+				<div class="con1">
+					<h3 class="h3_kf_mt">开放单位：天安门观礼台</h3>
+					<h3>开放时间：仅每月1日开放，其他时间不开放，具体开放时间以天安门地区管理委员会通知为准。</h3>
+				</div>
+				<div class="content_boxs">
+					<ul class="tabs">
+						<li class="jinzhi">2015年1月1号 预约已满</li>
+						<li class="active li_xx">2015年2月1号 还剩<span>130</span>个名额</li>
+						<li class="li_xx">2015年3月1号 还剩<span>30</span>个名额</li>
+						<li class="li_xx">2015年4月1号 还剩<span>30</span>个名额</li>
+					</ul>
+					<div class="content_box">
+						<ul class="tab">
+							<li class="act">团队预约</li>
+							<li>个人预约</li>
+						</ul>
+						<div class="container">
+							<div class="show">
+								<p>预约时间：<strong class="date">2015年2月1号</strong></p>
+								<p>预约电话：010-85752818</p>
+								<p class="show_p3">友情提示：如您有团队预约意向，请直接拨打预约电话进行预约</p>
+							</div>
+
+							<div>
+								<form action=" " method="get">
+									<p>预约时间：<strong class="date">2015年2月1号</strong></p>
+									<p>预约时段：<select name="order">
+										<option value="" selected>上午</option>
+										<option value="">中午</option>
+										<option value="">下午</option>
+										<option value="">晚上</option>
+									</select></p>
+									<p class="from_p">姓名：<input class="input" type="text" value="" name="uname" placeholder="请输入预约人的姓名"></p>
+									<p class="from_p">性别：<input type="radio" value="1" name="usex"
+										checked>男
+										<input type="radio" value="0" name="usex">女
+									</p>
+									<p class="from_p">民族：<input class="input" type="text" value="1333333333" name="uminzu"><span>请输入正确的民族</span></p>
+									<p class="from_p1">手机号：<input class="input" type="text" value="13333333333" name="sj"><span>请输入正确的手机号</span></p>
+									<p class="from_p1">验证码：<input class="input" type="text" value="6959" name="yzm"><a href="###">获取验证码</a></p>
+									<p>身份证号：<input class="input" type="text" value="" name="sfz" placeholder="请输入你的身份证号"><em>请核对你的身份证号码，确保正确</em><span>请输入合法的身份证号码</span></p>
+								</form>
+								<a href="###" class="tj">提交</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer">
+				<div class="footer_lianjie">
+					<p class="fl">北京市旅游发展委员会官方网站</p><a href="###" class="fl">©京ICP备13021917号</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+<script src="jquery.min.js"></script>
+	<script>
+		// 日期的选项卡
+		var tabs=document.getElementsByClassName('tabs')[0];
+	  var lis=tabs.getElementsByClassName('li_xx');
+	  var date=document.getElementsByClassName('date');
+	  var shijian=['2015年2月1号','2015年3月1号','2015年4月1号'];
+	  for(var i=0;i<lis.length;i++){
+		  lis[i].index=i;
+		  lis[i].onclick=function(){
+			  for(var i=0;i<lis.length;i++){
+				  lis[i].className='li_xx';
+			  }
+			  this.className='active li_xx';
+			  date[0].innerHTML=shijian[this.index];
+			  date[1].innerHTML=shijian[this.index];
+		  }
+	  }
+
+		// 团队、个人预约的选项卡
+		var tab=document.getElementsByClassName('tab')[0];
+	  var li=tab.getElementsByTagName('li');
+	  var container=document.getElementsByClassName('container')[0];
+	  var divs=container.getElementsByTagName('div');
+	  for(var i=0;i<li.length;i++){
+		  li[i].index=i;
+		  li[i].onclick=function(){
+			  for(var i=0;i<li.length;i++){
+				  li[i].className='';
+				  divs[i].className='';
+			  }
+			  this.className='act';
+			  divs[this.index].className='show';
+		  }
+	  }
+	</script>
+</body>
+</html>

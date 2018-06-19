@@ -1,0 +1,47 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,img,span,strong,em,i{
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-family: "宋体";
+}
+img{
+	border:none;
+	display: block;
+}
+h2,h3{
+	font-weight: bold;
+}
+ul,ol{
+	list-style:none;
+}
+input,select,textarea{
+	outline:none;
+}
+a{
+	text-decoration:none;
+	display: block;
+}
+em,i{
+	font-style: normal;
+	display: inline-block;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/* 清除浮动 */
+.clearfix::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.gwidth{
+	width: 960px;
+	margin: 0 auto;
+}
+.gwidth1{
+	width: 968px;
+	margin: 0 auto;
+}

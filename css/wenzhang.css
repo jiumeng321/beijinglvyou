@@ -1,0 +1,103 @@
+.contents .content h1 {
+	text-align: center;
+	font-size: 20px;
+	font-family: 微软雅黑;
+	padding-top: 2px;
+	line-height: 64px;
+}
+.contents .content .img_center {
+	margin: 0 auto;
+	margin-bottom: 27px;
+}
+.contents .content .jianjie {
+	padding: 0 24px;
+}
+.contents .content .jianjie h3 {
+	font-size: 14px;
+	line-height: 38px;
+	margin-left: 23px;
+}
+.contents .content .jianjie p {
+	font-size: 14px;
+	text-indent: 2em;
+	line-height: 26px;
+	color: #656565;
+}
+.contents .content .jianjie .h3_mt {
+	padding-top: 10px;
+}
+.contents .content .daohang_bt {
+	margin-left: 22px;
+}
+.contents .content .h3_border_bottom {
+	border-bottom: 1px solid #38A5FB;
+	width: 915px;
+}
+.contents .content .h3_border_bottom h3 {
+	width: 74px;
+	height: 21px;
+	background: #38A5FB;
+	color: #FFF;
+	text-align: center;
+	line-height: 22px;
+	margin-left: 9px;
+}
+.contents .content .dizhi ul li {
+	line-height: 25px;
+	font-size: 14px;
+	color: #656565;
+}
+.li_m_top {
+	margin-top: 8px;
+}
+.li_m_bom {
+	margin-bottom: 25px;
+}
+.contents .content .canguanxuzhi p {
+	line-height: 26px;
+	font-size: 14px;
+	color: #656565;
+}
+.contents .content .canguanxuzhi .mt_mb1 {
+	margin-top: 15px;
+}
+.contents .content .canguanxuzhi .mt_mb2 {
+	margin-bottom: 32px;
+}
+.ml{
+	margin-left: 30px;
+}
+.contents .content .yuyuebaoming {
+	height: 115px;
+}
+.contents .content .yuyuebaoming p {
+	margin-top: 37px;
+	float: left;
+}
+.contents .content .yuyuebaoming a {
+	width: 163px;
+	height: 51px;
+	float: left;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 51px;
+	color: #307BB7;
+	font-size: 22px;
+	font-family: 微软雅黑;
+	background: url('../images/a的anniu.png');
+}
+.geren_ml_mr{
+	margin-left: 13px;
+	margin-right: 10px;
+}
+.contents .content .img {
+	width: 886px;
+	height: 165px;
+	border: 1px solid #A2D4FC;
+	margin-left: 19px;
+	margin-right: 23px;
+	padding: 17px 16px 21px 14px;
+}
+.img_mr{
+	margin-right: 15px;
+}

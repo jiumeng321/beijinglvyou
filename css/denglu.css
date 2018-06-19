@@ -1,0 +1,66 @@
+body{
+	background: #F7F7F7;
+}
+h2,p,.denglu a{
+	font-family: 微软雅黑;
+}
+.content .content1 {
+	padding-top: 64px;
+}
+.content .content1 h2{
+	background: url('../images/denglu-logo.png') no-repeat left center;
+	font-size: 22px;
+	color: #333333;
+	padding-left: 18px;
+	margin-bottom: 16px;
+	font-weight: normal;
+}
+.h2-logo{
+	margin-left: 74px;
+}
+.content .content1 .denglu {
+	width: 825px;
+	height: 369px;
+	background: url('../images/dengluyinying.png') no-repeat;
+	margin-left: 58px;
+	margin-bottom: 97px;
+}
+form{
+	padding-top: 66px;
+	margin-left: 102px;
+}
+form p{
+	padding-top: 7px;
+	color: #333333;
+	font-size: 16px;
+	position: relative;
+	font-weight: bold;
+}
+form .p-mt{
+	margin-bottom: 17px;
+}
+.p-mb{
+	margin-bottom: 35px;
+}
+form input{
+	border: 1px solid #A2C1D5;
+}
+span{
+	position: relative;
+	top: -9px;
+	color: #FF0000;
+	font-size: 12px;
+	font-family: 宋体;
+	margin-right: 15px;
+}
+.denglu a{
+	width: 181px;
+	height: 49px;
+	color: #fff;
+	font-size: 18px;
+	background: #2BB3F3;
+	text-align: center;
+	line-height: 49px;
+	border-radius: 5px;
+	margin-left: 101px;
+}

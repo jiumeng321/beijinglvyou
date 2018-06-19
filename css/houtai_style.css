@@ -1,0 +1,18 @@
+.banner {
+	height: 69px;
+	background: url('../images/houtai.png') center;
+}
+.banner .logo h1 {
+	text-indent: -9999px;
+}
+.banner a {
+	font-size: 14px;
+	color: #FFF;
+	margin-right: 11px;
+}
+.banner .a_lianjie {
+	width: 106px;
+	height: 14px;
+	margin-top: 29px;
+	color: #FFF;
+}

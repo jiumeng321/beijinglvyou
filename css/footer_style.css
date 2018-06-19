@@ -1,0 +1,13 @@
+.footer{
+	height: 85px;
+}
+.footer .footer_lianjie{
+	width: 281px;
+	margin: 0 auto;
+	padding-top: 56px;
+	color: #656565;
+}
+.footer .footer_lianjie a{
+	color: #656565;
+	margin-left: 4px;
+}
